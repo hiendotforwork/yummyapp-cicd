@@ -17,7 +17,7 @@ RESTAURANTS_BY_LOCATION = {
 
 
 class YummyApp:
-    def init(self, network_status="online", os_version=15):
+    def __init__(self, network_status="online", os_version=15):
         self.network_status = network_status
         self.os_version = os_version
 
